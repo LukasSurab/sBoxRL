@@ -26,13 +26,14 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 
 List of packages:
+```
 gymnasium
 numpy
 torch
 sympy
 matplotlib
 stable-baselines3
-
+```
 #  Configuration Guide
 
 This section describes configuring the training scripts for evolving 8×8 S-boxes via RL.

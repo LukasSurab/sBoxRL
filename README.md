@@ -36,7 +36,7 @@ stable-baselines3
 ```
 #  Configuration Guide
 
-This section describes configuring the training scripts for evolving 8×8 S-boxes via RL.
+This section describes configuring the training scripts for evolving 8×8 S-boxes via RL (other than changes in hyperparameters).
 
 ---
 

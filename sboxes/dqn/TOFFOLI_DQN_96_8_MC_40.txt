@@ -1,0 +1,88 @@
+S = ['00', '10', '23', 'B4', '31', '41', '12', 'A7', '93', '67', '8B', 'DD', '60', 'F4', 'DB', '68', 'BD', '0A', 'C0', 'CB', '4F', 'A0', 'FC', '42', 'E2', '70', 'ED', '53', '7B', '64', '85', 'DF', 'D2', 'DA', '49', '98', 'D6', 'AA', '3C', '17', '48', '0C', '39', 'B8', '45', '80', '2A', '5C', 'A2', '20', '7A', '9E', '58', '57', '5B', 'A1', '69', '18', '50', '8E', '52', 'F7', 'AB', '05', 'EA', '9F', 'C1', 'C8', 'BF', '4E', 'A8', 'E1', '91', '02', '11', '88', '1F', 'CA', '7E', '2B', '7D', '62', '0F', '2D', '28', '21', 'C2', 'F5', 'D9', 'D7', 'FA', '87', '26', 'E7', '55', '0D', '89', 'BE', '51', '4B', '30', 'B5', 'E3', '03', '86', '72', '1E', '32', 'B2', '3B', '5D', 'CC', 'F0', '3A', 'AD', 'D5', 'C4', '90', '1D', '4A', '37', '96', 'B7', '47', 'CF', '9D', 'CD', 'DC', 'E0', '8F', 'C7', 'EE', '46', '06', '04', '66', '36', 'FE', 'A3', '9A', '65', '13', 'E6', 'DE', 'A9', '8A', 'D4', '92', '09', '6F', '81', '3E', '19', '3F', '84', '40', '73', 'A5', '07', '01', '44', '15', 'AF', '6D', 'F9', '43', 'E4', 'BA', '5E', '29', '8D', '78', 'E8', '34', 'CE', '94', 'B9', '6B', '77', '2F', '4D', '25', '2E', '74', '63', '6E', '97', '95', '27', 'B1', '83', '6C', 'D1', '5A', 'D0', 'E5', 'B0', '9B', '75', 'FD', '9C', '82', '2C', '1A', 'FF', 'A4', 'D8', '7F', 'C3', '8C', 'A6', 'EB', '35', 'C5', '6A', '24', 'F3', '22', 'EF', 'BC', '56', '71', '99', 'F8', '0B', 'D3', '79', 'BB', 'AE', 'C9', 'B6', 'F1', '54', 'C6', '7C', '33', 'F6', '4C', 'AC', '3D', '59', '1B', 'F2', '08', '38', 'FB', '0E', 'B3', '76', '14', 'EC', 'E9', '61', '5F', '1C', '16']
+Nonlinearity: 96, Differential Uniformity: 8, Gate Complexity: 85, Multiplicative Complexity: 40
+Sequence of Applied Operations:
+{'type': 'TOFFOLI', 'target': 2, 'control1': 7, 'control2': 1}
+{'type': 'TOFFOLI', 'target': 1, 'control1': 0, 'control2': 3}
+{'type': 'TOFFOLI', 'target': 0, 'control1': 5, 'control2': 3}
+{'type': 'XOR', 'target': 0, 'control1': 7}
+{'type': 'TOFFOLI', 'target': 4, 'control1': 3, 'control2': 1}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 5, 'control2': 0}
+{'type': 'XOR', 'target': 6, 'control1': 5}
+{'type': 'TOFFOLI', 'target': 6, 'control1': 1, 'control2': 4}
+{'type': 'XOR', 'target': 4, 'control1': 0}
+{'type': 'XOR', 'target': 3, 'control1': 5}
+{'type': 'TOFFOLI', 'target': 1, 'control1': 0, 'control2': 4}
+{'type': 'XOR', 'target': 2, 'control1': 3}
+{'type': 'XOR', 'target': 5, 'control1': 7}
+{'type': 'XOR', 'target': 2, 'control1': 4}
+{'type': 'XOR', 'target': 3, 'control1': 5}
+{'type': 'TOFFOLI', 'target': 1, 'control1': 7, 'control2': 5}
+{'type': 'XOR', 'target': 5, 'control1': 2}
+{'type': 'TOFFOLI', 'target': 3, 'control1': 4, 'control2': 0}
+{'type': 'XOR', 'target': 5, 'control1': 3}
+{'type': 'TOFFOLI', 'target': 6, 'control1': 5, 'control2': 7}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 1, 'control2': 7}
+{'type': 'XOR', 'target': 3, 'control1': 7}
+{'type': 'XOR', 'target': 4, 'control1': 2}
+{'type': 'TOFFOLI', 'target': 5, 'control1': 3, 'control2': 6}
+{'type': 'TOFFOLI', 'target': 0, 'control1': 4, 'control2': 3}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 4, 'control2': 5}
+{'type': 'XOR', 'target': 4, 'control1': 1}
+{'type': 'XOR', 'target': 6, 'control1': 7}
+{'type': 'XOR', 'target': 0, 'control1': 7}
+{'type': 'TOFFOLI', 'target': 3, 'control1': 5, 'control2': 6}
+{'type': 'XOR', 'target': 4, 'control1': 0}
+{'type': 'XOR', 'target': 0, 'control1': 2}
+{'type': 'TOFFOLI', 'target': 4, 'control1': 0, 'control2': 7}
+{'type': 'TOFFOLI', 'target': 4, 'control1': 6, 'control2': 0}
+{'type': 'XOR', 'target': 4, 'control1': 3}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 1, 'control2': 3}
+{'type': 'TOFFOLI', 'target': 6, 'control1': 1, 'control2': 7}
+{'type': 'TOFFOLI', 'target': 4, 'control1': 2, 'control2': 3}
+{'type': 'TOFFOLI', 'target': 5, 'control1': 4, 'control2': 7}
+{'type': 'TOFFOLI', 'target': 0, 'control1': 5, 'control2': 7}
+{'type': 'TOFFOLI', 'target': 4, 'control1': 2, 'control2': 5}
+{'type': 'XOR', 'target': 1, 'control1': 4}
+{'type': 'XOR', 'target': 5, 'control1': 1}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 0, 'control2': 3}
+{'type': 'XOR', 'target': 3, 'control1': 4}
+{'type': 'TOFFOLI', 'target': 0, 'control1': 5, 'control2': 4}
+{'type': 'TOFFOLI', 'target': 5, 'control1': 1, 'control2': 6}
+{'type': 'XOR', 'target': 6, 'control1': 1}
+{'type': 'XOR', 'target': 3, 'control1': 7}
+{'type': 'XOR', 'target': 3, 'control1': 0}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 4, 'control2': 0}
+{'type': 'TOFFOLI', 'target': 1, 'control1': 0, 'control2': 6}
+{'type': 'XOR', 'target': 1, 'control1': 0}
+{'type': 'XOR', 'target': 3, 'control1': 0}
+{'type': 'TOFFOLI', 'target': 0, 'control1': 5, 'control2': 4}
+{'type': 'XOR', 'target': 6, 'control1': 1}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 7, 'control2': 5}
+{'type': 'XOR', 'target': 7, 'control1': 2}
+{'type': 'XOR', 'target': 0, 'control1': 6}
+{'type': 'XOR', 'target': 3, 'control1': 0}
+{'type': 'TOFFOLI', 'target': 6, 'control1': 0, 'control2': 5}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 7, 'control2': 4}
+{'type': 'XOR', 'target': 1, 'control1': 2}
+{'type': 'TOFFOLI', 'target': 7, 'control1': 5, 'control2': 1}
+{'type': 'XOR', 'target': 0, 'control1': 3}
+{'type': 'TOFFOLI', 'target': 5, 'control1': 0, 'control2': 4}
+{'type': 'XOR', 'target': 4, 'control1': 5}
+{'type': 'XOR', 'target': 2, 'control1': 4}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 3, 'control2': 4}
+{'type': 'XOR', 'target': 3, 'control1': 0}
+{'type': 'XOR', 'target': 2, 'control1': 4}
+{'type': 'TOFFOLI', 'target': 6, 'control1': 4, 'control2': 1}
+{'type': 'XOR', 'target': 5, 'control1': 6}
+{'type': 'XOR', 'target': 4, 'control1': 1}
+{'type': 'XOR', 'target': 1, 'control1': 0}
+{'type': 'XOR', 'target': 1, 'control1': 6}
+{'type': 'TOFFOLI', 'target': 0, 'control1': 7, 'control2': 3}
+{'type': 'XOR', 'target': 1, 'control1': 7}
+{'type': 'TOFFOLI', 'target': 5, 'control1': 6, 'control2': 2}
+{'type': 'XOR', 'target': 7, 'control1': 3}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 4, 'control2': 7}
+{'type': 'TOFFOLI', 'target': 3, 'control1': 6, 'control2': 0}
+{'type': 'XOR', 'target': 1, 'control1': 7}
+{'type': 'XOR', 'target': 4, 'control1': 3}
+{'type': 'XOR', 'target': 0, 'control1': 3}

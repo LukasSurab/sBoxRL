@@ -1,0 +1,80 @@
+S = ['00', 'FB', 'AC', '7C', '43', '51', 'B2', 'DA', '6A', '56', '01', 'D1', 'B9', 'AB', 'D4', '06', 'C8', '9E', 'DD', '47', '11', '97', 'DE', 'AD', 'D7', '2B', 'F9', '79', '6C', '0A', '89', '08', '88', '9D', '7D', '3D', '4B', '83', '54', 'C2', '9F', '70', '6E', '84', '10', '86', 'C0', 'F4', '25', '5D', '9C', 'A4', 'DF', '3A', 'D6', 'E4', '1D', '0E', '81', 'C1', '32', '5A', 'F7', '64', 'EF', '44', 'BB', '8B', 'D2', '07', 'D8', 'A0', 'BF', 'E9', '8C', 'E1', 'D5', 'D9', 'F6', 'C4', 'E6', '13', 'CE', '1E', 'FF', 'B8', '0B', '2C', '48', '46', 'CC', '49', '16', 'C7', 'B3', '6F', '7F', 'FD', 'F0', '73', '8E', '58', 'F3', 'E2', '31', '71', '55', '4E', '74', '18', '35', '3C', 'A9', '72', '9A', 'E0', '30', '09', 'DB', 'E7', 'C9', 'EE', '36', '21', '42', 'A3', 'A1', '7A', '65', '8A', 'C3', '38', '33', '3E', 'EA', '60', '69', '41', '29', 'B5', '57', 'A5', 'F2', '27', '62', '5E', '80', '78', '5B', 'D3', '52', 'AE', '50', 'FE', 'C5', '12', 'CF', '96', 'E8', '4D', '1A', '05', '92', 'D0', 'A8', 'BA', 'DC', '68', '94', 'AF', '37', 'BC', 'CB', '87', '8D', '3F', '45', '91', '63', 'B0', 'B1', '77', '82', '4C', 'EC', '53', '99', 'CD', 'C6', '7B', 'ED', '66', 'BD', 'A7', '59', '24', '2E', 'A2', '98', 'BE', '17', '4A', '40', '5C', '14', '6B', '2D', '1F', '4F', '04', 'FA', '03', '6D', 'F8', '02', '34', '7E', '0C', '95', '1B', '2F', '8F', '90', 'F1', 'AA', 'E5', '0D', '9B', '39', '75', 'EB', '20', '19', '93', '1C', '85', 'FC', 'F5', '0F', 'B7', '22', '23', '76', 'B6', 'A6', '28', 'E3', 'CA', '3B', '5F', '26', 'B4', '67', '2A', '61', '15']
+Nonlinearity: 98, Differential Uniformity: 10, Gate Complexity: 77, Multiplicative Complexity: 24
+Operations:
+{'type': 'TOFFOLI', 'target': 0, 'control1': 7, 'control2': 4}
+{'type': 'FREDKIN', 'control': 2, 'target1': 4, 'target2': 1}
+{'type': 'TOFFOLI', 'target': 7, 'control1': 4, 'control2': 3}
+{'type': 'FREDKIN', 'control': 1, 'target1': 3, 'target2': 5}
+{'type': 'FREDKIN', 'control': 0, 'target1': 6, 'target2': 4}
+{'type': 'XOR', 'target': 3, 'control1': 0}
+{'type': 'TOFFOLI', 'target': 2, 'control1': 1, 'control2': 3}
+{'type': 'XOR', 'target': 6, 'control1': 1}
+{'type': 'XOR', 'target': 6, 'control1': 4}
+{'type': 'XOR', 'target': 1, 'control1': 4}
+{'type': 'XOR', 'target': 4, 'control1': 1}
+{'type': 'FREDKIN', 'control': 7, 'target1': 6, 'target2': 5}
+{'type': 'FREDKIN', 'control': 6, 'target1': 4, 'target2': 1}
+{'type': 'FREDKIN', 'control': 1, 'target1': 3, 'target2': 5}
+{'type': 'FREDKIN', 'control': 2, 'target1': 7, 'target2': 5}
+{'type': 'TOFFOLI', 'target': 0, 'control1': 6, 'control2': 2}
+{'type': 'XOR', 'target': 3, 'control1': 0}
+{'type': 'FREDKIN', 'control': 1, 'target1': 3, 'target2': 5}
+{'type': 'XOR', 'target': 7, 'control1': 2}
+{'type': 'XOR', 'target': 6, 'control1': 0}
+{'type': 'FREDKIN', 'control': 5, 'target1': 6, 'target2': 0}
+{'type': 'XOR', 'target': 5, 'control1': 6}
+{'type': 'XOR', 'target': 6, 'control1': 1}
+{'type': 'XOR', 'target': 6, 'control1': 5}
+{'type': 'FREDKIN', 'control': 0, 'target1': 7, 'target2': 5}
+{'type': 'XOR', 'target': 3, 'control1': 0}
+{'type': 'XOR', 'target': 3, 'control1': 4}
+{'type': 'XOR', 'target': 7, 'control1': 0}
+{'type': 'XOR', 'target': 0, 'control1': 3}
+{'type': 'XOR', 'target': 3, 'control1': 7}
+{'type': 'XOR', 'target': 6, 'control1': 3}
+{'type': 'XOR', 'target': 1, 'control1': 6}
+{'type': 'XOR', 'target': 6, 'control1': 1}
+{'type': 'FREDKIN', 'control': 2, 'target1': 1, 'target2': 4}
+{'type': 'XOR', 'target': 5, 'control1': 2}
+{'type': 'FREDKIN', 'control': 7, 'target1': 5, 'target2': 2}
+{'type': 'XOR', 'target': 7, 'control1': 3}
+{'type': 'XOR', 'target': 4, 'control1': 3}
+{'type': 'XOR', 'target': 0, 'control1': 5}
+{'type': 'FREDKIN', 'control': 2, 'target1': 3, 'target2': 0}
+{'type': 'XOR', 'target': 2, 'control1': 0}
+{'type': 'XOR', 'target': 6, 'control1': 4}
+{'type': 'XOR', 'target': 1, 'control1': 6}
+{'type': 'XOR', 'target': 7, 'control1': 0}
+{'type': 'XOR', 'target': 0, 'control1': 4}
+{'type': 'XOR', 'target': 5, 'control1': 1}
+{'type': 'FREDKIN', 'control': 3, 'target1': 1, 'target2': 4}
+{'type': 'XOR', 'target': 6, 'control1': 1}
+{'type': 'XOR', 'target': 4, 'control1': 2}
+{'type': 'XOR', 'target': 6, 'control1': 1}
+{'type': 'XOR', 'target': 5, 'control1': 7}
+{'type': 'TOFFOLI', 'target': 0, 'control1': 1, 'control2': 2}
+{'type': 'XOR', 'target': 2, 'control1': 1}
+{'type': 'FREDKIN', 'control': 4, 'target1': 6, 'target2': 5}
+{'type': 'XOR', 'target': 5, 'control1': 7}
+{'type': 'XOR', 'target': 4, 'control1': 5}
+{'type': 'XOR', 'target': 5, 'control1': 0}
+{'type': 'TOFFOLI', 'target': 3, 'control1': 2, 'control2': 1}
+{'type': 'XOR', 'target': 0, 'control1': 2}
+{'type': 'XOR', 'target': 4, 'control1': 2}
+{'type': 'XOR', 'target': 1, 'control1': 3}
+{'type': 'XOR', 'target': 3, 'control1': 7}
+{'type': 'XOR', 'target': 0, 'control1': 4}
+{'type': 'XOR', 'target': 5, 'control1': 6}
+{'type': 'XOR', 'target': 6, 'control1': 2}
+{'type': 'XOR', 'target': 5, 'control1': 0}
+{'type': 'XOR', 'target': 6, 'control1': 3}
+{'type': 'XOR', 'target': 1, 'control1': 3}
+{'type': 'XOR', 'target': 1, 'control1': 2}
+{'type': 'XOR', 'target': 7, 'control1': 1}
+{'type': 'FREDKIN', 'control': 6, 'target1': 1, 'target2': 3}
+{'type': 'XOR', 'target': 0, 'control1': 1}
+{'type': 'TOFFOLI', 'target': 1, 'control1': 7, 'control2': 0}
+{'type': 'XOR', 'target': 4, 'control1': 0}
+{'type': 'XOR', 'target': 7, 'control1': 6}
+{'type': 'XOR', 'target': 6, 'control1': 0}
+{'type': 'FREDKIN', 'control': 3, 'target1': 2, 'target2': 0}

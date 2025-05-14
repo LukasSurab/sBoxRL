@@ -68,14 +68,7 @@ env = SBoxEnv(
     init_random_ops=True,               # start with random gate sequence
     random_ops_count=0,                 # how many random ops on reset
     non_improvement_limit=50,           # early termination threshold
-    reward_config={                    # custom reward weights & thresholds
-        'w_nonl': 2.0,
-        'w_du': 1.5,
-        'w_gate': 0.15,
-        'w_explore': 0.8,
-        'w_no_improve': 0.005,
-        # ... other bonus/threshold settings ...
-    },
+    reward_config=custom_reward_config,
     allowed_gates=["XOR", "TOFFOLI", "FREDKIN"],  # gates the agent may use
 )
 ```
@@ -83,3 +76,27 @@ env = SBoxEnv(
 Checkpoint interval: how often (in timesteps) to save the model & stats.
 
 Total timesteps: overall training budget.
+
+You can also change and tweak the custom reward configurations as such:
+```
+custom_reward_config = {
+    'w_nonl': 2.0,
+    'w_du': 1.5,
+    'w_gate': 0.15,
+    'w_explore': 0.8,
+    'w_no_improve': 0.005,
+    'nonl_bonus_threshold': 98,
+    'nonl_bonus_factor': 120,
+    'du_bonus_threshold': 10,
+    'du_bonus_factor': 110,
+    'nonl_bonus_threshold2': 100,
+    'nonl_bonus_factor2': 1000,
+    'du_bonus_threshold2': 8,
+    'du_bonus_factor2': 1000,
+    'w_toffoli': 2,
+    'w_fredkin': 2,
+    'spectral_du_weight': 0.005,
+    'spectral_nonl_weight': 0.005,
+    "spectral_linear_weight": 0.005,
+}
+```
